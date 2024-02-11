@@ -6,7 +6,7 @@ body {
     color: white;
     background-color: rgb(28, 28, 28);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    letter-spacing: 0.5px;
+    letter-spacing: 1.7px;
 }
 
 a {
@@ -24,7 +24,7 @@ ul {
 }
 
 .container {
-    padding: 0px 20px;
+    padding: 10px 20px;
     /* border: inset 10px black; */
     height: 100%;
 
@@ -34,21 +34,21 @@ ul {
 
 .one {
     /* border: solid; */
-    /* background-color: rgb(0, 225, 255); */
-    border: inset 1px;
+    background-color: rgba(85, 85, 85, 0.469);
+    /* border: inset 1px rgba(186, 186, 186, 0.399); */
     border-radius: 20px;
-    padding: 0px 10px;
-    box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.279);
+    padding: 0px 10%;
+    box-shadow: 0px 15px 65px rgba(128, 128, 128, 0.279);
 }
 
 .two {
-    padding: 0px 10px;
+    padding: 0px 10%;
     padding-top: 5%;
 
     display: flex;
     justify-content: space-between;
     /* border: solid; */
-    height: 70%;
+    height: 50%;
     /* background-color: rgb(13, 255, 0); */
 }
 
@@ -74,7 +74,23 @@ ul {
 }
 
 .three {
+    padding: 0px 10%;
     height: 20%;
     /* border: solid; */
     /* background-color: blue; */
+}
+
+.threeOne {
+    padding: 20px 0px;
+}
+
+.threeTwo {
+    display: flex;
+    flex-direction: column;
+}
+
+.threeTwoTwo {
+    display: flex;
+    flex-direction: column;
+
 }
