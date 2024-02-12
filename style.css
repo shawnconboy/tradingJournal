@@ -38,7 +38,7 @@ ul {
     /* border: inset 1px rgba(186, 186, 186, 0.399); */
     border-radius: 20px;
     padding: 0px 10%;
-    box-shadow: 0px 15px 65px rgba(128, 128, 128, 0.279);
+    /* box-shadow: 0px 15px 65px rgba(128, 128, 128, 0.279); */
 }
 
 .two {
