@@ -1,7 +1,7 @@
 html,
 body {
     margin: 0;
-    padding: 0;
+    padding: 0px 05%;
     height: 100%;
     color: white;
     background-color: rgb(28, 28, 28);
@@ -21,12 +21,13 @@ li {
 
 ul {
     text-indent: 0px;
+    padding: 0;
 }
 
 .container {
     padding: 10px 20px;
     /* border: inset 10px black; */
-    /* height: 100%; */
+    height: 100%;
 
     display: flex;
     flex-direction: column;
@@ -49,7 +50,9 @@ ul {
     justify-content: space-between;
     /* border: solid; */
     height: 50%;
-    /* background-color: rgb(13, 255, 0); */
+    background-color: rgb(126, 162, 159);
+    border-radius: 20px;
+    margin: 10px 0px;
 }
 
 .twoOne,
@@ -77,13 +80,17 @@ ul {
 
 .twoThreeContainer {
     display: flex;
+    justify-content: space-between;
 }
 
 .three {
     padding: 0px 10%;
     height: 20%;
     /* border: solid; */
-    /* background-color: blue; */
+    background-color: rgb(82, 107, 84);
+    border-radius: 20px;
+    /* margin: 10px 0px; */
+    padding-bottom: 20px;
 }
 
 .threeOne {
