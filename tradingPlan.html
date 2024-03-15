@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading Plan</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <div class="container">
+        <div class="one">
+            <h1>Trading Plan</h1>
+            
+            <p class="missionParagraph">
+                Plan the trade, trade the plan.
+            </p>
+        </div>
+
+        <div class="two">
+            <form action="submit_trade.php" method="post">
+
+                <input type="checkbox" id="marketAnalysis" name="marketAnalysis">
+                <label for="marketAnalysis">Market Analysis</label><br>
+             
+                <label for="trend">Trend:</label><br>
+                <input type="radio" id="uptrend" name="trend" value="uptrend">
+                <label for="uptrend">Uptrend</label><br>
+                <input type="radio" id="downtrend" name="trend" value="downtrend">
+                <label for="downtrend">Downtrend</label><br>
+                <input type="radio" id="ranging" name="trend" value="ranging">
+                <label for="ranging">Ranging</label><br>
+
+               <label for="entrySignal">Entry Signal:</label>
+                <select id="entrySignal" name="entrySignal">
+                    <option value="clear">Clear Entry Signal</option>
+                    <option value="unclear">Unclear Entry Signal</option>
+                </select><br>
+
+             
+               
+             
+                <label for="riskManagement">Risk Management:</label>
+                <select id="riskManagement" name="riskManagement">
+                    <option value="low">Low</option>
+                    <option value="medium">Medium</option>
+                    <option value="high">High</option>
+                </select><br>
+             
+                <label for="marketConditions">Market Conditions:</label><br>
+                <textarea id="marketConditions" name="marketConditions" rows="4" cols="50"></textarea><br>
+             
+                <input type="submit" value="Submit">
+             </form>
+             
+        </div>
+    </div>
+</body>
+</html>
