@@ -9,6 +9,10 @@
 </head>
 <body>
     
+    <header>
+        <a href="index.html">Home</a>
+        <a href="tradingPlan.html">Trading Plan</a>
+    </header>
 
     <div class="container">
         <div class="one">
@@ -20,11 +24,16 @@
         </div>
 
         <div class="two">
-            <form action="submit_trade.php" method="post">
+            <form action="#" method="post">
 
-                <input type="checkbox" id="marketAnalysis" name="marketAnalysis">
-                <label for="marketAnalysis">Market Analysis</label><br>
-             
+                
+                <label for="marketAnalysis">Market Analysis:</label>
+                <select id="marketAnalysis" name="marketAnalysis">
+                    <option value="unmarked" selected>Unmarked</option>
+                    <option value="marked">Marked Up</option>
+                </select><br>
+
+                
                 <label for="trend">Trend:</label><br>
                 <input type="radio" id="uptrend" name="trend" value="uptrend">
                 <label for="uptrend">Uptrend</label><br>
@@ -35,7 +44,7 @@
 
                <label for="entrySignal">Entry Signal:</label>
                 <select id="entrySignal" name="entrySignal">
-                    <option value="clear">Clear Entry Signal</option>
+                    <option value="clear">Engulfing Candle</option>
                     <option value="unclear">Unclear Entry Signal</option>
                 </select><br>
 
@@ -44,9 +53,8 @@
              
                 <label for="riskManagement">Risk Management:</label>
                 <select id="riskManagement" name="riskManagement">
-                    <option value="low">Low</option>
-                    <option value="medium">Medium</option>
-                    <option value="high">High</option>
+                    <option value="medium" selected>Not Risky</option>
+                    <option value="low">Risky</option>
                 </select><br>
              
                 <label for="marketConditions">Market Conditions:</label><br>
